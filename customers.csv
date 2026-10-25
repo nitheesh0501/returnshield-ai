@@ -1,0 +1,501 @@
+customer_id,customer_name,phone,email,city,state,city_tier,delivery_pincode,account_age_days,total_historical_orders,prior_returns,historical_return_rate,trust_score
+CUST_1001,Pooja Sharma,+91 8846913810,pooja.sharma260@example.in,Jaipur,Rajasthan,Tier 2,302015,223,10,2,0.2,84
+CUST_1002,Sneha Saxena,+91 9314265799,sneha.saxena40@example.in,Delhi-NCR,Delhi,Tier 1,110019,490,9,3,0.333,81
+CUST_1003,Priya Malhotra,+91 9797226012,priya.malhotra728@example.in,Agra,Uttar Pradesh,Tier 3,282004,465,9,1,0.111,96
+CUST_1004,Suresh Saxena,+91 9910872248,suresh.saxena787@example.in,Pune,Maharashtra,Tier 1,411045,710,5,0,0.0,99
+CUST_1005,Meera Singh,+91 9755176955,meera.singh114@example.in,Delhi-NCR,Delhi,Tier 1,122001,212,3,1,0.333,65
+CUST_1006,Amit Mishra,+91 9145503389,amit.mishra836@example.in,Mumbai,Maharashtra,Tier 1,400092,269,3,0,0.0,88
+CUST_1007,Deepak Verma,+91 9149349722,deepak.verma859@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,754,9,0,0.0,99
+CUST_1008,Siddharth Agarwal,+91 9816150444,siddharth.agarwal687@example.in,Jaipur,Rajasthan,Tier 2,302020,177,4,0,0.0,82
+CUST_1009,Karan Iyer,+91 9347308985,karan.iyer474@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,347,9,2,0.222,88
+CUST_1010,Ishita Mishra,+91 9799949389,ishita.mishra283@example.in,Jodhpur,Rajasthan,Tier 3,342001,364,11,5,0.455,72
+CUST_1011,Shreya Rao,+91 9360929647,shreya.rao286@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,463,9,5,0.556,65
+CUST_1012,Manish Patel,+91 9714308421,manish.patel834@example.in,Indore,Madhya Pradesh,Tier 2,452010,562,12,2,0.167,99
+CUST_1013,Vikram Nair,+91 9152235350,vikram.nair227@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,824,7,3,0.429,80
+CUST_1014,Sunita Singh,+91 9928740864,sunita.singh262@example.in,Agra,Uttar Pradesh,Tier 3,282007,552,13,5,0.385,86
+CUST_1015,Akanksha Saxena,+91 9358586340,akanksha.saxena234@example.in,Chennai,Tamil Nadu,Tier 1,600113,1024,4,0,0.0,99
+CUST_1016,Sneha Patel,+91 9830514014,sneha.patel652@example.in,Pune,Maharashtra,Tier 1,411045,144,16,2,0.125,85
+CUST_1017,Deepak Joshi,+91 9172820592,deepak.joshi551@example.in,Ahmedabad,Gujarat,Tier 2,380001,248,9,3,0.333,75
+CUST_1018,Meera Bhat,+91 9924972279,meera.bhat310@example.in,Chandigarh,Punjab,Tier 2,160017,943,10,2,0.2,99
+CUST_1019,Aarav Bansal,+91 8845351479,aarav.bansal522@example.in,Pune,Maharashtra,Tier 1,411057,231,1,0,0.0,92
+CUST_1020,Rhea Bhat,+91 9191734598,rhea.bhat213@example.in,Chennai,Tamil Nadu,Tier 1,600040,344,10,1,0.1,93
+CUST_1021,Aarav Choudhury,+91 9975579548,aarav.choudhury29@example.in,Hyderabad,Telangana,Tier 1,500081,643,15,2,0.133,94
+CUST_1022,Shreya Patel,+91 9786149359,shreya.patel979@example.in,Delhi-NCR,Delhi,Tier 1,110001,1009,4,0,0.0,99
+CUST_1023,Vikram Malhotra,+91 9727232410,vikram.malhotra685@example.in,Patna,Bihar,Tier 3,800020,352,2,1,0.5,66
+CUST_1024,Gaurav Chopra,+91 9166792612,gaurav.chopra997@example.in,Kolkata,West Bengal,Tier 1,700107,425,6,0,0.0,97
+CUST_1025,Rhea Joshi,+91 8897225156,rhea.joshi392@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,938,9,3,0.333,93
+CUST_1026,Pooja Mehta,+91 9718593410,pooja.mehta356@example.in,Bengaluru,Karnataka,Tier 1,560038,485,16,1,0.062,99
+CUST_1027,Karan Sharma,+91 9894705205,karan.sharma70@example.in,Jaipur,Rajasthan,Tier 2,302001,78,9,0,0.0,92
+CUST_1028,Tanvi Verma,+91 9141944441,tanvi.verma295@example.in,Meerut,Uttar Pradesh,Tier 3,250002,452,12,1,0.083,99
+CUST_1029,Aditya Bansal,+91 9187337818,aditya.bansal494@example.in,Jaipur,Rajasthan,Tier 2,302033,847,12,7,0.583,74
+CUST_1030,Siddharth Iyer,+91 9898447167,siddharth.iyer451@example.in,Surat,Gujarat,Tier 2,395003,855,13,1,0.077,99
+CUST_1031,Sunita Bansal,+91 9897705310,sunita.bansal671@example.in,Hyderabad,Telangana,Tier 1,500001,838,11,1,0.091,99
+CUST_1032,Tanvi Iyer,+91 9735714784,tanvi.iyer204@example.in,Agra,Uttar Pradesh,Tier 3,282004,301,7,3,0.429,73
+CUST_1033,Akanksha Rao,+91 9972092888,akanksha.rao265@example.in,Delhi-NCR,Delhi,Tier 1,122001,214,6,1,0.167,82
+CUST_1034,Ananya Bhat,+91 9111980765,ananya.bhat105@example.in,Jaipur,Rajasthan,Tier 2,302015,846,9,0,0.0,99
+CUST_1035,Simran Deshmukh,+91 9763826716,simran.deshmukh934@example.in,Mumbai,Maharashtra,Tier 1,400050,790,14,3,0.214,99
+CUST_1036,Aarav Joshi,+91 9971070189,aarav.joshi302@example.in,Chandigarh,Punjab,Tier 2,160036,1010,8,2,0.25,97
+CUST_1037,Neha Nair,+91 9939219319,neha.nair69@example.in,Ranchi,Jharkhand,Tier 3,834001,656,6,3,0.5,74
+CUST_1038,Ananya Patel,+91 9173993471,ananya.patel524@example.in,Varanasi,Uttar Pradesh,Tier 3,221001,130,2,1,0.5,52
+CUST_1039,Sneha Rao,+91 9889864260,sneha.rao79@example.in,Meerut,Uttar Pradesh,Tier 3,250001,840,4,1,0.25,84
+CUST_1040,Pooja Saxena,+91 9787701200,pooja.saxena618@example.in,Mumbai,Maharashtra,Tier 1,400069,181,16,3,0.188,82
+CUST_1041,Nikhil Pillai,+91 9185863473,nikhil.pillai545@example.in,Indore,Madhya Pradesh,Tier 2,452010,432,4,1,0.25,82
+CUST_1042,Manish Mehta,+91 9963121477,manish.mehta144@example.in,Meerut,Uttar Pradesh,Tier 3,250002,950,6,1,0.167,99
+CUST_1043,Manish Verma,+91 9871510041,manish.verma646@example.in,Ranchi,Jharkhand,Tier 3,834001,164,23,7,0.304,74
+CUST_1044,Divya Chopra,+91 9927778019,divya.chopra965@example.in,Surat,Gujarat,Tier 2,395001,514,6,4,0.667,60
+CUST_1045,Ishita Gupta,+91 9768812137,ishita.gupta863@example.in,Agra,Uttar Pradesh,Tier 3,282007,633,18,1,0.056,98
+CUST_1046,Aarav Pillai,+91 9150181935,aarav.pillai964@example.in,Meerut,Uttar Pradesh,Tier 3,250001,289,10,4,0.4,76
+CUST_1047,Gaurav Iyer,+91 9884252420,gaurav.iyer169@example.in,Ahmedabad,Gujarat,Tier 2,380054,445,8,1,0.125,84
+CUST_1048,Tanvi Nair,+91 8895125977,tanvi.nair883@example.in,Ahmedabad,Gujarat,Tier 2,380061,528,10,2,0.2,94
+CUST_1049,Ananya Verma,+91 8866851377,ananya.verma859@example.in,Ahmedabad,Gujarat,Tier 2,380001,21,5,1,0.2,73
+CUST_1050,Tanvi Singh,+91 8845159040,tanvi.singh175@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,889,5,3,0.6,64
+CUST_1051,Aarav Iyer,+91 9830005727,aarav.iyer568@example.in,Mumbai,Maharashtra,Tier 1,400076,317,10,1,0.1,96
+CUST_1052,Akanksha Singh,+91 9851373735,akanksha.singh383@example.in,Mumbai,Maharashtra,Tier 1,400076,444,8,2,0.25,88
+CUST_1053,Shreya Pillai,+91 9857469942,shreya.pillai808@example.in,Agra,Uttar Pradesh,Tier 3,282004,330,9,3,0.333,87
+CUST_1054,Shreya Rao,+91 9765337219,shreya.rao35@example.in,Pune,Maharashtra,Tier 1,411028,857,15,0,0.0,99
+CUST_1055,Shreya Reddy,+91 9724508349,shreya.reddy401@example.in,Mumbai,Maharashtra,Tier 1,400092,469,13,1,0.077,96
+CUST_1056,Siddharth Kulkarni,+91 9950962024,siddharth.kulkarni850@example.in,Jaipur,Rajasthan,Tier 2,302015,62,6,1,0.167,74
+CUST_1057,Siddharth Joshi,+91 9947393469,siddharth.joshi895@example.in,Delhi-NCR,Delhi,Tier 1,110092,733,4,0,0.0,99
+CUST_1058,Swati Pillai,+91 9154446182,swati.pillai971@example.in,Bengaluru,Karnataka,Tier 1,560001,548,6,0,0.0,99
+CUST_1059,Kavya Saxena,+91 9915134794,kavya.saxena121@example.in,Guwahati,Assam,Tier 3,781005,721,7,2,0.286,89
+CUST_1060,Manish Bose,+91 9178642041,manish.bose128@example.in,Kochi,Kerala,Tier 2,682030,403,10,2,0.2,97
+CUST_1061,Gaurav Patel,+91 8868526649,gaurav.patel11@example.in,Varanasi,Uttar Pradesh,Tier 3,221010,417,13,2,0.154,89
+CUST_1062,Ishita Bose,+91 9899152472,ishita.bose952@example.in,Indore,Madhya Pradesh,Tier 2,452012,656,7,1,0.143,97
+CUST_1063,Pooja Bansal,+91 9978064830,pooja.bansal326@example.in,Meerut,Uttar Pradesh,Tier 3,250002,682,4,2,0.5,79
+CUST_1064,Swati Agarwal,+91 9984411983,swati.agarwal140@example.in,Kolkata,West Bengal,Tier 1,700091,790,7,1,0.143,93
+CUST_1065,Kavya Choudhury,+91 9150392808,kavya.choudhury425@example.in,Agra,Uttar Pradesh,Tier 3,282001,636,7,3,0.429,79
+CUST_1066,Varun Nair,+91 9387844239,varun.nair631@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,966,6,0,0.0,99
+CUST_1067,Suresh Kulkarni,+91 8838682516,suresh.kulkarni533@example.in,Patna,Bihar,Tier 3,800020,361,6,3,0.5,74
+CUST_1068,Sneha Gupta,+91 9199100953,sneha.gupta658@example.in,Guwahati,Assam,Tier 3,781005,205,20,3,0.15,93
+CUST_1069,Shreya Pillai,+91 9940150759,shreya.pillai835@example.in,Kolkata,West Bengal,Tier 1,700020,64,13,6,0.462,65
+CUST_1070,Rahul Mehta,+91 9392043803,rahul.mehta880@example.in,Delhi-NCR,Delhi,Tier 1,122001,862,12,1,0.083,99
+CUST_1071,Siddharth Agarwal,+91 8861536717,siddharth.agarwal516@example.in,Kochi,Kerala,Tier 2,682001,316,12,3,0.25,79
+CUST_1072,Aarav Iyer,+91 9339372360,aarav.iyer190@example.in,Jodhpur,Rajasthan,Tier 3,342008,116,11,1,0.091,96
+CUST_1073,Shreya Iyer,+91 9327896471,shreya.iyer830@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,663,6,1,0.167,92
+CUST_1074,Suresh Choudhury,+91 8877750178,suresh.choudhury446@example.in,Agra,Uttar Pradesh,Tier 3,282004,339,3,2,0.667,54
+CUST_1075,Harsh Kulkarni,+91 9943183955,harsh.kulkarni870@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,1081,15,4,0.267,93
+CUST_1076,Simran Bhat,+91 9746855845,simran.bhat460@example.in,Delhi-NCR,Delhi,Tier 1,110092,494,5,2,0.4,77
+CUST_1077,Meera Chatterjee,+91 9982498004,meera.chatterjee92@example.in,Chennai,Tamil Nadu,Tier 1,600028,487,4,2,0.5,60
+CUST_1078,Deepak Agarwal,+91 9738716269,deepak.agarwal75@example.in,Chandigarh,Punjab,Tier 2,160022,691,9,1,0.111,98
+CUST_1079,Sunita Bose,+91 9837760841,sunita.bose862@example.in,Chandigarh,Punjab,Tier 2,160022,54,6,2,0.333,67
+CUST_1080,Deepak Deshmukh,+91 9857212267,deepak.deshmukh315@example.in,Kochi,Kerala,Tier 2,682016,465,4,0,0.0,99
+CUST_1081,Simran Mehta,+91 9968496914,simran.mehta507@example.in,Bengaluru,Karnataka,Tier 1,560100,702,3,0,0.0,96
+CUST_1082,Swati Bansal,+91 9772732043,swati.bansal951@example.in,Chennai,Tamil Nadu,Tier 1,600113,69,5,0,0.0,74
+CUST_1083,Swati Saxena,+91 9198986321,swati.saxena37@example.in,Delhi-NCR,Delhi,Tier 1,122001,291,11,1,0.091,90
+CUST_1084,Sunita Rao,+91 9844917589,sunita.rao398@example.in,Indore,Madhya Pradesh,Tier 2,452001,945,12,3,0.25,99
+CUST_1085,Manish Chatterjee,+91 9347346970,manish.chatterjee780@example.in,Chandigarh,Punjab,Tier 2,160022,181,4,1,0.25,73
+CUST_1086,Harsh Sharma,+91 8882399599,harsh.sharma63@example.in,Surat,Gujarat,Tier 2,395001,154,4,0,0.0,84
+CUST_1087,Rahul Sharma,+91 9736757737,rahul.sharma869@example.in,Bengaluru,Karnataka,Tier 1,560038,326,6,2,0.333,76
+CUST_1088,Shreya Singh,+91 9399853245,shreya.singh127@example.in,Ranchi,Jharkhand,Tier 3,834001,966,17,2,0.118,99
+CUST_1089,Gaurav Mishra,+91 9791321540,gaurav.mishra631@example.in,Jodhpur,Rajasthan,Tier 3,342001,349,8,2,0.25,81
+CUST_1090,Rhea Iyer,+91 9113446499,rhea.iyer961@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,826,6,2,0.333,87
+CUST_1091,Siddharth Verma,+91 9194187049,siddharth.verma258@example.in,Hyderabad,Telangana,Tier 1,500081,261,15,2,0.133,88
+CUST_1092,Rahul Mishra,+91 9167495923,rahul.mishra687@example.in,Surat,Gujarat,Tier 2,395001,1050,2,0,0.0,98
+CUST_1093,Tanvi Sharma,+91 9375793759,tanvi.sharma118@example.in,Chandigarh,Punjab,Tier 2,160022,955,2,1,0.5,79
+CUST_1094,Neha Bose,+91 9780027662,neha.bose998@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,1004,5,1,0.2,93
+CUST_1095,Sunita Bose,+91 8889520597,sunita.bose284@example.in,Indore,Madhya Pradesh,Tier 2,452001,191,14,2,0.143,83
+CUST_1096,Meera Kulkarni,+91 9772372114,meera.kulkarni593@example.in,Guwahati,Assam,Tier 3,781022,790,6,1,0.167,98
+CUST_1097,Tanvi Sharma,+91 9353622663,tanvi.sharma196@example.in,Patna,Bihar,Tier 3,800001,740,4,1,0.25,93
+CUST_1098,Gaurav Chatterjee,+91 9990014570,gaurav.chatterjee728@example.in,Ahmedabad,Gujarat,Tier 2,380001,1072,8,3,0.375,88
+CUST_1099,Siddharth Verma,+91 9764549859,siddharth.verma510@example.in,Agra,Uttar Pradesh,Tier 3,282001,989,4,1,0.25,85
+CUST_1100,Simran Kulkarni,+91 9822489409,simran.kulkarni311@example.in,Jaipur,Rajasthan,Tier 2,302033,512,7,1,0.143,93
+CUST_1101,Rhea Pillai,+91 9159529086,rhea.pillai494@example.in,Agra,Uttar Pradesh,Tier 3,282007,718,7,2,0.286,82
+CUST_1102,Akanksha Bansal,+91 9154398056,akanksha.bansal370@example.in,Jodhpur,Rajasthan,Tier 3,342008,568,6,3,0.5,71
+CUST_1103,Rhea Reddy,+91 9726194158,rhea.reddy748@example.in,Kolkata,West Bengal,Tier 1,700064,258,6,1,0.167,84
+CUST_1104,Kavya Nair,+91 9774988034,kavya.nair293@example.in,Ranchi,Jharkhand,Tier 3,834004,219,3,1,0.333,66
+CUST_1105,Siddharth Gupta,+91 9758436637,siddharth.gupta193@example.in,Lucknow,Uttar Pradesh,Tier 2,226001,273,28,5,0.179,87
+CUST_1106,Meera Patel,+91 9884270583,meera.patel309@example.in,Jodhpur,Rajasthan,Tier 3,342001,1019,28,2,0.071,95
+CUST_1107,Rohan Sharma,+91 9148163378,rohan.sharma490@example.in,Patna,Bihar,Tier 3,800014,711,15,1,0.067,99
+CUST_1108,Kavya Patel,+91 9974119726,kavya.patel126@example.in,Delhi-NCR,Delhi,Tier 1,122001,1021,6,1,0.167,94
+CUST_1109,Vikram Saxena,+91 8817195288,vikram.saxena165@example.in,Chennai,Tamil Nadu,Tier 1,600113,636,12,0,0.0,99
+CUST_1110,Sneha Mehta,+91 9884903294,sneha.mehta792@example.in,Chandigarh,Punjab,Tier 2,160036,476,6,1,0.167,88
+CUST_1111,Deepak Kulkarni,+91 9349910061,deepak.kulkarni890@example.in,Ranchi,Jharkhand,Tier 3,834004,639,3,1,0.333,73
+CUST_1112,Ananya Choudhury,+91 8823318904,ananya.choudhury980@example.in,Kolkata,West Bengal,Tier 1,700020,555,3,0,0.0,89
+CUST_1113,Sneha Rao,+91 9733328859,sneha.rao575@example.in,Delhi-NCR,Delhi,Tier 1,110019,19,1,0,0.0,77
+CUST_1114,Harsh Gupta,+91 9841068214,harsh.gupta305@example.in,Jodhpur,Rajasthan,Tier 3,342008,943,8,4,0.5,74
+CUST_1115,Vikram Pillai,+91 9745507920,vikram.pillai816@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,419,8,3,0.375,81
+CUST_1116,Akanksha Iyer,+91 9140173413,akanksha.iyer673@example.in,Chennai,Tamil Nadu,Tier 1,600040,305,10,2,0.2,86
+CUST_1117,Vikram Patel,+91 9751286958,vikram.patel619@example.in,Ranchi,Jharkhand,Tier 3,834004,913,12,2,0.167,99
+CUST_1118,Pooja Kulkarni,+91 8850814428,pooja.kulkarni726@example.in,Kochi,Kerala,Tier 2,682016,1038,4,0,0.0,99
+CUST_1119,Simran Kulkarni,+91 9890267122,simran.kulkarni50@example.in,Chandigarh,Punjab,Tier 2,160036,674,2,0,0.0,94
+CUST_1120,Gaurav Sharma,+91 9840725714,gaurav.sharma994@example.in,Meerut,Uttar Pradesh,Tier 3,250001,565,8,0,0.0,99
+CUST_1121,Rahul Rao,+91 9379654147,rahul.rao677@example.in,Coimbatore,Tamil Nadu,Tier 2,641012,385,6,0,0.0,97
+CUST_1122,Akanksha Bhat,+91 9322246348,akanksha.bhat491@example.in,Surat,Gujarat,Tier 2,395003,696,13,0,0.0,99
+CUST_1123,Manish Pillai,+91 9831585546,manish.pillai347@example.in,Chandigarh,Punjab,Tier 2,160036,1028,6,1,0.167,98
+CUST_1124,Varun Pillai,+91 9383832717,varun.pillai47@example.in,Coimbatore,Tamil Nadu,Tier 2,641001,658,10,1,0.1,99
+CUST_1125,Gaurav Chatterjee,+91 9864247457,gaurav.chatterjee895@example.in,Varanasi,Uttar Pradesh,Tier 3,221001,960,3,1,0.333,83
+CUST_1126,Nikhil Patel,+91 9779583757,nikhil.patel380@example.in,Guwahati,Assam,Tier 3,781005,919,5,3,0.6,71
+CUST_1127,Ananya Nair,+91 9983715012,ananya.nair144@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,1006,9,1,0.111,99
+CUST_1128,Pooja Sharma,+91 8891721371,pooja.sharma828@example.in,Jaipur,Rajasthan,Tier 2,302015,650,5,2,0.4,80
+CUST_1129,Aarav Malhotra,+91 9322510327,aarav.malhotra240@example.in,Hyderabad,Telangana,Tier 1,500084,254,8,2,0.25,85
+CUST_1130,Neha Deshmukh,+91 8849172995,neha.deshmukh531@example.in,Jodhpur,Rajasthan,Tier 3,342008,864,13,7,0.538,73
+CUST_1131,Harsh Deshmukh,+91 9771308842,harsh.deshmukh574@example.in,Chennai,Tamil Nadu,Tier 1,600096,404,6,1,0.167,82
+CUST_1132,Aditya Verma,+91 9965692629,aditya.verma358@example.in,Varanasi,Uttar Pradesh,Tier 3,221005,19,1,0,0.0,73
+CUST_1133,Rhea Saxena,+91 9198575748,rhea.saxena511@example.in,Chennai,Tamil Nadu,Tier 1,600096,1005,7,1,0.143,99
+CUST_1134,Amit Chatterjee,+91 9182937948,amit.chatterjee396@example.in,Coimbatore,Tamil Nadu,Tier 2,641012,400,2,0,0.0,86
+CUST_1135,Shreya Saxena,+91 9341348220,shreya.saxena886@example.in,Chandigarh,Punjab,Tier 2,160017,665,17,2,0.118,99
+CUST_1136,Harsh Agarwal,+91 9361818612,harsh.agarwal689@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,1028,25,11,0.44,88
+CUST_1137,Rahul Singh,+91 9189212676,rahul.singh349@example.in,Hyderabad,Telangana,Tier 1,500084,218,9,1,0.111,85
+CUST_1138,Sunita Sharma,+91 8829348212,sunita.sharma429@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,167,13,1,0.077,86
+CUST_1139,Harsh Reddy,+91 9993652460,harsh.reddy719@example.in,Kochi,Kerala,Tier 2,682030,178,7,3,0.429,70
+CUST_1140,Tanvi Pillai,+91 9161003997,tanvi.pillai987@example.in,Indore,Madhya Pradesh,Tier 2,452012,1013,2,0,0.0,99
+CUST_1141,Rahul Choudhury,+91 9841510328,rahul.choudhury656@example.in,Meerut,Uttar Pradesh,Tier 3,250002,479,12,3,0.25,91
+CUST_1142,Sneha Bose,+91 9895060193,sneha.bose730@example.in,Hyderabad,Telangana,Tier 1,500084,354,6,0,0.0,95
+CUST_1143,Rhea Sharma,+91 9853536830,rhea.sharma825@example.in,Mumbai,Maharashtra,Tier 1,400076,748,8,1,0.125,99
+CUST_1144,Ishita Bose,+91 9742775624,ishita.bose553@example.in,Chandigarh,Punjab,Tier 2,160036,382,9,1,0.111,87
+CUST_1145,Arjun Rao,+91 9891804602,arjun.rao901@example.in,Kochi,Kerala,Tier 2,682030,507,6,1,0.167,85
+CUST_1146,Simran Saxena,+91 9741163805,simran.saxena482@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,955,5,1,0.2,89
+CUST_1147,Gaurav Pillai,+91 9872445234,gaurav.pillai932@example.in,Lucknow,Uttar Pradesh,Tier 2,226010,165,18,5,0.278,70
+CUST_1148,Suresh Mishra,+91 9150151803,suresh.mishra664@example.in,Chandigarh,Punjab,Tier 2,160036,526,11,3,0.273,94
+CUST_1149,Sunita Gupta,+91 9761632653,sunita.gupta883@example.in,Patna,Bihar,Tier 3,800001,499,11,5,0.455,75
+CUST_1150,Deepak Saxena,+91 9987149951,deepak.saxena312@example.in,Jodhpur,Rajasthan,Tier 3,342008,58,13,3,0.231,77
+CUST_1151,Swati Reddy,+91 9885957706,swati.reddy895@example.in,Meerut,Uttar Pradesh,Tier 3,250001,1031,7,3,0.429,83
+CUST_1152,Varun Mehta,+91 9157287718,varun.mehta234@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,527,10,2,0.2,95
+CUST_1153,Aditya Bhat,+91 9894216001,aditya.bhat671@example.in,Mumbai,Maharashtra,Tier 1,400076,916,5,2,0.4,77
+CUST_1154,Rahul Saxena,+91 9927637794,rahul.saxena102@example.in,Lucknow,Uttar Pradesh,Tier 2,226016,864,5,2,0.4,77
+CUST_1155,Kavya Nair,+91 9782398083,kavya.nair907@example.in,Surat,Gujarat,Tier 2,395007,1041,2,1,0.5,70
+CUST_1156,Meera Rao,+91 9974672520,meera.rao835@example.in,Lucknow,Uttar Pradesh,Tier 2,226016,249,26,6,0.231,84
+CUST_1157,Sunita Verma,+91 9740281491,sunita.verma890@example.in,Meerut,Uttar Pradesh,Tier 3,250002,763,4,1,0.25,89
+CUST_1158,Sneha Joshi,+91 9845495029,sneha.joshi559@example.in,Hyderabad,Telangana,Tier 1,500084,768,9,0,0.0,99
+CUST_1159,Gaurav Saxena,+91 9395704631,gaurav.saxena972@example.in,Surat,Gujarat,Tier 2,395001,492,13,2,0.154,95
+CUST_1160,Harsh Sharma,+91 9185350823,harsh.sharma345@example.in,Guwahati,Assam,Tier 3,781001,143,10,7,0.7,53
+CUST_1161,Sunita Agarwal,+91 9997139443,sunita.agarwal428@example.in,Hyderabad,Telangana,Tier 1,500032,106,7,3,0.429,65
+CUST_1162,Rahul Gupta,+91 9325585427,rahul.gupta109@example.in,Jaipur,Rajasthan,Tier 2,302015,809,5,1,0.2,91
+CUST_1163,Sunita Mishra,+91 8882503409,sunita.mishra439@example.in,Ranchi,Jharkhand,Tier 3,834001,863,5,2,0.4,84
+CUST_1164,Rohan Deshmukh,+91 9164776386,rohan.deshmukh971@example.in,Ahmedabad,Gujarat,Tier 2,380001,772,7,4,0.571,71
+CUST_1165,Divya Kulkarni,+91 9341690501,divya.kulkarni885@example.in,Surat,Gujarat,Tier 2,395001,766,17,6,0.353,91
+CUST_1166,Amit Patel,+91 9347028180,amit.patel204@example.in,Hyderabad,Telangana,Tier 1,500084,201,9,1,0.111,92
+CUST_1167,Divya Bhat,+91 8890147573,divya.bhat31@example.in,Mumbai,Maharashtra,Tier 1,400076,512,15,0,0.0,99
+CUST_1168,Aditya Saxena,+91 9719208698,aditya.saxena859@example.in,Agra,Uttar Pradesh,Tier 3,282001,456,2,1,0.5,64
+CUST_1169,Karan Chatterjee,+91 9789991301,karan.chatterjee12@example.in,Ahmedabad,Gujarat,Tier 2,380015,280,2,0,0.0,84
+CUST_1170,Gaurav Rao,+91 9898725654,gaurav.rao897@example.in,Bengaluru,Karnataka,Tier 1,560034,44,12,3,0.25,82
+CUST_1171,Amit Mehta,+91 9153455870,amit.mehta26@example.in,Pune,Maharashtra,Tier 1,411028,121,6,0,0.0,87
+CUST_1172,Aditya Bansal,+91 9380610004,aditya.bansal126@example.in,Delhi-NCR,Delhi,Tier 1,122001,932,7,0,0.0,99
+CUST_1173,Ishita Chopra,+91 9124636981,ishita.chopra472@example.in,Varanasi,Uttar Pradesh,Tier 3,221001,102,13,2,0.154,83
+CUST_1174,Rhea Kulkarni,+91 8814180968,rhea.kulkarni72@example.in,Patna,Bihar,Tier 3,800014,887,4,1,0.25,84
+CUST_1175,Rohan Deshmukh,+91 8869533928,rohan.deshmukh85@example.in,Delhi-NCR,Delhi,Tier 1,110092,317,7,1,0.143,87
+CUST_1176,Vikram Singh,+91 9993794475,vikram.singh658@example.in,Ranchi,Jharkhand,Tier 3,834004,794,13,4,0.308,94
+CUST_1177,Varun Kulkarni,+91 9191259008,varun.kulkarni450@example.in,Hyderabad,Telangana,Tier 1,500001,454,11,0,0.0,99
+CUST_1178,Akanksha Kulkarni,+91 9765541117,akanksha.kulkarni357@example.in,Coimbatore,Tamil Nadu,Tier 2,641012,865,14,2,0.143,99
+CUST_1179,Rohan Chatterjee,+91 9351946203,rohan.chatterjee691@example.in,Ahmedabad,Gujarat,Tier 2,380054,326,15,1,0.067,99
+CUST_1180,Harsh Verma,+91 9821457410,harsh.verma105@example.in,Chandigarh,Punjab,Tier 2,160017,777,8,1,0.125,93
+CUST_1181,Aditya Malhotra,+91 9888714010,aditya.malhotra989@example.in,Agra,Uttar Pradesh,Tier 3,282007,689,4,0,0.0,99
+CUST_1182,Pooja Bose,+91 9999300492,pooja.bose973@example.in,Chandigarh,Punjab,Tier 2,160036,119,1,0,0.0,79
+CUST_1183,Rhea Mishra,+91 9887566910,rhea.mishra529@example.in,Kolkata,West Bengal,Tier 1,700020,1001,2,0,0.0,99
+CUST_1184,Karan Iyer,+91 9984660688,karan.iyer386@example.in,Hyderabad,Telangana,Tier 1,500081,477,6,1,0.167,90
+CUST_1185,Akanksha Malhotra,+91 9192352411,akanksha.malhotra701@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,67,2,0,0.0,85
+CUST_1186,Meera Sharma,+91 9746677730,meera.sharma729@example.in,Lucknow,Uttar Pradesh,Tier 2,226016,732,17,5,0.294,93
+CUST_1187,Aarav Rao,+91 9786010330,aarav.rao683@example.in,Kochi,Kerala,Tier 2,682001,304,8,1,0.125,90
+CUST_1188,Priya Verma,+91 8881200181,priya.verma230@example.in,Kochi,Kerala,Tier 2,682016,943,16,2,0.125,99
+CUST_1189,Tanvi Rao,+91 9951827259,tanvi.rao748@example.in,Indore,Madhya Pradesh,Tier 2,452012,187,8,2,0.25,85
+CUST_1190,Ananya Singh,+91 9792924837,ananya.singh60@example.in,Meerut,Uttar Pradesh,Tier 3,250001,571,6,2,0.333,79
+CUST_1191,Suresh Pillai,+91 9375184410,suresh.pillai631@example.in,Coimbatore,Tamil Nadu,Tier 2,641012,573,5,2,0.4,77
+CUST_1192,Divya Chopra,+91 9856328316,divya.chopra450@example.in,Hyderabad,Telangana,Tier 1,500081,1010,6,1,0.167,99
+CUST_1193,Rhea Patel,+91 9763051354,rhea.patel623@example.in,Mumbai,Maharashtra,Tier 1,400001,432,5,0,0.0,99
+CUST_1194,Rhea Nair,+91 9744295247,rhea.nair306@example.in,Indore,Madhya Pradesh,Tier 2,452001,29,13,4,0.308,71
+CUST_1195,Simran Bansal,+91 9333581357,simran.bansal142@example.in,Kochi,Kerala,Tier 2,682030,485,6,1,0.167,84
+CUST_1196,Amit Verma,+91 9315677713,amit.verma456@example.in,Bengaluru,Karnataka,Tier 1,560100,173,5,1,0.2,79
+CUST_1197,Manish Saxena,+91 9386960402,manish.saxena424@example.in,Jodhpur,Rajasthan,Tier 3,342008,606,9,2,0.222,88
+CUST_1198,Pooja Joshi,+91 9853589647,pooja.joshi185@example.in,Guwahati,Assam,Tier 3,781005,755,11,6,0.545,77
+CUST_1199,Sneha Bose,+91 9842657384,sneha.bose456@example.in,Ranchi,Jharkhand,Tier 3,834004,1087,10,1,0.1,99
+CUST_1200,Sneha Joshi,+91 9955568701,sneha.joshi236@example.in,Indore,Madhya Pradesh,Tier 2,452001,170,16,1,0.062,85
+CUST_1201,Pooja Chopra,+91 9136025314,pooja.chopra937@example.in,Surat,Gujarat,Tier 2,395003,316,15,3,0.2,86
+CUST_1202,Shreya Iyer,+91 9744355473,shreya.iyer212@example.in,Pune,Maharashtra,Tier 1,411057,327,10,3,0.3,78
+CUST_1203,Vikram Rao,+91 8876319264,vikram.rao485@example.in,Ranchi,Jharkhand,Tier 3,834004,675,1,0,0.0,99
+CUST_1204,Manish Singh,+91 9319165226,manish.singh490@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,634,9,2,0.222,98
+CUST_1205,Meera Saxena,+91 9857236885,meera.saxena529@example.in,Delhi-NCR,Delhi,Tier 1,110092,959,9,1,0.111,99
+CUST_1206,Suresh Patel,+91 9859491122,suresh.patel861@example.in,Lucknow,Uttar Pradesh,Tier 2,226001,198,3,1,0.333,67
+CUST_1207,Deepak Kulkarni,+91 9184399083,deepak.kulkarni987@example.in,Mumbai,Maharashtra,Tier 1,400092,399,7,2,0.286,75
+CUST_1208,Manish Choudhury,+91 9377292380,manish.choudhury164@example.in,Mumbai,Maharashtra,Tier 1,400092,225,6,0,0.0,90
+CUST_1209,Tanvi Agarwal,+91 9877719420,tanvi.agarwal671@example.in,Pune,Maharashtra,Tier 1,411001,521,8,0,0.0,99
+CUST_1210,Suresh Kulkarni,+91 9180162053,suresh.kulkarni634@example.in,Pune,Maharashtra,Tier 1,411028,777,4,1,0.25,86
+CUST_1211,Varun Joshi,+91 9355414869,varun.joshi705@example.in,Guwahati,Assam,Tier 3,781001,699,8,2,0.25,91
+CUST_1212,Vikram Chatterjee,+91 9884888554,vikram.chatterjee704@example.in,Kochi,Kerala,Tier 2,682016,530,8,1,0.125,98
+CUST_1213,Neha Chatterjee,+91 9888213973,neha.chatterjee689@example.in,Chennai,Tamil Nadu,Tier 1,600040,649,1,0,0.0,93
+CUST_1214,Swati Singh,+91 9121370793,swati.singh327@example.in,Agra,Uttar Pradesh,Tier 3,282004,686,15,3,0.2,97
+CUST_1215,Aditya Pillai,+91 8880651318,aditya.pillai105@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,881,5,2,0.4,82
+CUST_1216,Ishita Sharma,+91 9951455302,ishita.sharma194@example.in,Kolkata,West Bengal,Tier 1,700064,1009,1,0,0.0,96
+CUST_1217,Aditya Singh,+91 9849700543,aditya.singh874@example.in,Hyderabad,Telangana,Tier 1,500072,1092,7,2,0.286,88
+CUST_1218,Rahul Pillai,+91 9992950779,rahul.pillai144@example.in,Guwahati,Assam,Tier 3,781005,329,15,2,0.133,95
+CUST_1219,Arjun Rao,+91 8893851247,arjun.rao838@example.in,Pune,Maharashtra,Tier 1,411045,103,12,2,0.167,80
+CUST_1220,Nikhil Mishra,+91 8841880763,nikhil.mishra464@example.in,Guwahati,Assam,Tier 3,781005,933,8,4,0.5,77
+CUST_1221,Karan Malhotra,+91 9751536077,karan.malhotra998@example.in,Patna,Bihar,Tier 3,800001,767,3,1,0.333,83
+CUST_1222,Suresh Kulkarni,+91 9961254050,suresh.kulkarni524@example.in,Varanasi,Uttar Pradesh,Tier 3,221005,345,9,1,0.111,97
+CUST_1223,Siddharth Choudhury,+91 9743554863,siddharth.choudhury63@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,774,6,1,0.167,99
+CUST_1224,Rohan Agarwal,+91 9126733967,rohan.agarwal301@example.in,Delhi-NCR,Delhi,Tier 1,110019,572,17,8,0.471,81
+CUST_1225,Suresh Chopra,+91 9768716573,suresh.chopra103@example.in,Jaipur,Rajasthan,Tier 2,302033,729,3,0,0.0,98
+CUST_1226,Priya Bose,+91 9863211150,priya.bose524@example.in,Surat,Gujarat,Tier 2,395001,804,3,1,0.333,77
+CUST_1227,Sneha Mishra,+91 9713783268,sneha.mishra336@example.in,Hyderabad,Telangana,Tier 1,500081,313,10,2,0.2,82
+CUST_1228,Aditya Patel,+91 9973411827,aditya.patel722@example.in,Chennai,Tamil Nadu,Tier 1,600096,932,7,1,0.143,91
+CUST_1229,Aarav Verma,+91 9844349528,aarav.verma230@example.in,Chennai,Tamil Nadu,Tier 1,600113,1094,9,3,0.333,83
+CUST_1230,Akanksha Iyer,+91 9941895531,akanksha.iyer318@example.in,Hyderabad,Telangana,Tier 1,500001,502,9,2,0.222,89
+CUST_1231,Nikhil Bhat,+91 9171352751,nikhil.bhat74@example.in,Hyderabad,Telangana,Tier 1,500084,47,7,0,0.0,88
+CUST_1232,Shreya Agarwal,+91 9749093864,shreya.agarwal449@example.in,Bengaluru,Karnataka,Tier 1,560038,736,5,0,0.0,98
+CUST_1233,Shreya Saxena,+91 9335140847,shreya.saxena690@example.in,Meerut,Uttar Pradesh,Tier 3,250001,1086,12,1,0.083,99
+CUST_1234,Ishita Verma,+91 9183025444,ishita.verma529@example.in,Varanasi,Uttar Pradesh,Tier 3,221010,55,2,1,0.5,49
+CUST_1235,Deepak Deshmukh,+91 9895318289,deepak.deshmukh406@example.in,Surat,Gujarat,Tier 2,395003,47,5,2,0.4,69
+CUST_1236,Amit Verma,+91 9942363373,amit.verma760@example.in,Meerut,Uttar Pradesh,Tier 3,250001,694,18,7,0.389,92
+CUST_1237,Aditya Patel,+91 9983284724,aditya.patel356@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,965,7,1,0.143,99
+CUST_1238,Harsh Bhat,+91 9728099607,harsh.bhat74@example.in,Jodhpur,Rajasthan,Tier 3,342008,89,6,1,0.167,71
+CUST_1239,Varun Nair,+91 9836772387,varun.nair917@example.in,Mumbai,Maharashtra,Tier 1,400076,649,3,1,0.333,75
+CUST_1240,Swati Malhotra,+91 9343999198,swati.malhotra47@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,599,15,1,0.067,98
+CUST_1241,Amit Patel,+91 8854550177,amit.patel289@example.in,Hyderabad,Telangana,Tier 1,500081,908,8,1,0.125,99
+CUST_1242,Swati Bansal,+91 9361894582,swati.bansal357@example.in,Pune,Maharashtra,Tier 1,411045,1032,5,0,0.0,91
+CUST_1243,Ishita Chopra,+91 9921087928,ishita.chopra754@example.in,Chandigarh,Punjab,Tier 2,160017,895,7,1,0.143,99
+CUST_1244,Kavya Malhotra,+91 9953112268,kavya.malhotra115@example.in,Delhi-NCR,Delhi,Tier 1,110092,619,15,1,0.067,99
+CUST_1245,Rhea Kulkarni,+91 9167192331,rhea.kulkarni180@example.in,Jodhpur,Rajasthan,Tier 3,342008,733,4,2,0.5,63
+CUST_1246,Suresh Patel,+91 8857319709,suresh.patel639@example.in,Chandigarh,Punjab,Tier 2,160022,131,13,3,0.231,80
+CUST_1247,Vikram Pillai,+91 8864520614,vikram.pillai382@example.in,Varanasi,Uttar Pradesh,Tier 3,221010,341,5,3,0.6,60
+CUST_1248,Priya Singh,+91 9168810561,priya.singh45@example.in,Chennai,Tamil Nadu,Tier 1,600001,497,7,0,0.0,99
+CUST_1249,Ishita Mishra,+91 9386134287,ishita.mishra43@example.in,Guwahati,Assam,Tier 3,781001,935,5,1,0.2,92
+CUST_1250,Ishita Mishra,+91 9320319387,ishita.mishra597@example.in,Chennai,Tamil Nadu,Tier 1,600113,765,6,1,0.167,93
+CUST_1251,Swati Chatterjee,+91 8847405107,swati.chatterjee265@example.in,Hyderabad,Telangana,Tier 1,500001,395,22,2,0.091,95
+CUST_1252,Simran Chopra,+91 9385386435,simran.chopra130@example.in,Ahmedabad,Gujarat,Tier 2,380054,927,16,1,0.062,99
+CUST_1253,Divya Choudhury,+91 9975927774,divya.choudhury214@example.in,Hyderabad,Telangana,Tier 1,500032,165,4,1,0.25,70
+CUST_1254,Suresh Rao,+91 8869741812,suresh.rao99@example.in,Meerut,Uttar Pradesh,Tier 3,250002,725,7,2,0.286,89
+CUST_1255,Vikram Malhotra,+91 9148971765,vikram.malhotra922@example.in,Lucknow,Uttar Pradesh,Tier 2,226010,370,6,2,0.333,70
+CUST_1256,Ishita Chopra,+91 9726288992,ishita.chopra215@example.in,Chennai,Tamil Nadu,Tier 1,600028,1025,9,2,0.222,95
+CUST_1257,Priya Mishra,+91 9186809773,priya.mishra387@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,279,10,1,0.1,90
+CUST_1258,Sneha Verma,+91 9963440127,sneha.verma744@example.in,Patna,Bihar,Tier 3,800020,855,9,4,0.444,84
+CUST_1259,Nikhil Saxena,+91 9826821075,nikhil.saxena334@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,935,8,5,0.625,74
+CUST_1260,Sunita Pillai,+91 9156239991,sunita.pillai141@example.in,Agra,Uttar Pradesh,Tier 3,282007,386,3,0,0.0,90
+CUST_1261,Aditya Bose,+91 9117437386,aditya.bose861@example.in,Hyderabad,Telangana,Tier 1,500072,327,8,1,0.125,94
+CUST_1262,Rhea Rao,+91 9753306792,rhea.rao967@example.in,Jodhpur,Rajasthan,Tier 3,342001,722,6,0,0.0,94
+CUST_1263,Varun Verma,+91 9936347197,varun.verma660@example.in,Agra,Uttar Pradesh,Tier 3,282004,270,4,1,0.25,73
+CUST_1264,Rhea Choudhury,+91 9122539748,rhea.choudhury524@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,329,5,0,0.0,96
+CUST_1265,Arjun Pillai,+91 9191220369,arjun.pillai355@example.in,Ranchi,Jharkhand,Tier 3,834001,72,10,4,0.4,74
+CUST_1266,Sneha Patel,+91 8887412924,sneha.patel281@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,867,6,1,0.167,98
+CUST_1267,Priya Deshmukh,+91 8883226170,priya.deshmukh306@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,1003,4,1,0.25,87
+CUST_1268,Shreya Pillai,+91 9349920898,shreya.pillai474@example.in,Delhi-NCR,Delhi,Tier 1,110001,337,12,2,0.167,92
+CUST_1269,Suresh Bose,+91 9372336371,suresh.bose218@example.in,Indore,Madhya Pradesh,Tier 2,452012,308,7,0,0.0,91
+CUST_1270,Manish Agarwal,+91 9956354851,manish.agarwal418@example.in,Chennai,Tamil Nadu,Tier 1,600040,1068,7,1,0.143,98
+CUST_1271,Rohan Chatterjee,+91 9772608888,rohan.chatterjee135@example.in,Ahmedabad,Gujarat,Tier 2,380061,521,9,0,0.0,99
+CUST_1272,Neha Iyer,+91 9848951595,neha.iyer978@example.in,Kochi,Kerala,Tier 2,682030,870,20,0,0.0,99
+CUST_1273,Shreya Rao,+91 9987535841,shreya.rao748@example.in,Indore,Madhya Pradesh,Tier 2,452001,340,4,1,0.25,76
+CUST_1274,Simran Chopra,+91 9376942394,simran.chopra910@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,61,7,1,0.143,76
+CUST_1275,Sneha Joshi,+91 9171368457,sneha.joshi999@example.in,Jaipur,Rajasthan,Tier 2,302015,736,8,1,0.125,99
+CUST_1276,Ananya Patel,+91 9976423575,ananya.patel621@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,977,10,2,0.2,99
+CUST_1277,Varun Malhotra,+91 9824428014,varun.malhotra451@example.in,Chennai,Tamil Nadu,Tier 1,600040,763,6,0,0.0,99
+CUST_1278,Swati Mishra,+91 9863765155,swati.mishra62@example.in,Ranchi,Jharkhand,Tier 3,834001,756,12,2,0.167,99
+CUST_1279,Varun Verma,+91 9377680031,varun.verma471@example.in,Agra,Uttar Pradesh,Tier 3,282004,257,8,1,0.125,84
+CUST_1280,Aditya Iyer,+91 9360089832,aditya.iyer823@example.in,Indore,Madhya Pradesh,Tier 2,452012,762,3,1,0.333,77
+CUST_1281,Neha Nair,+91 9178333267,neha.nair421@example.in,Varanasi,Uttar Pradesh,Tier 3,221001,106,5,1,0.2,66
+CUST_1282,Rahul Singh,+91 8854699966,rahul.singh833@example.in,Patna,Bihar,Tier 3,800020,949,8,1,0.125,99
+CUST_1283,Neha Choudhury,+91 9128761086,neha.choudhury345@example.in,Guwahati,Assam,Tier 3,781005,346,1,0,0.0,79
+CUST_1284,Rhea Saxena,+91 9978090664,rhea.saxena858@example.in,Varanasi,Uttar Pradesh,Tier 3,221010,1017,12,2,0.167,98
+CUST_1285,Rhea Deshmukh,+91 9859440148,rhea.deshmukh349@example.in,Meerut,Uttar Pradesh,Tier 3,250001,867,5,1,0.2,95
+CUST_1286,Rhea Bansal,+91 8894457912,rhea.bansal37@example.in,Guwahati,Assam,Tier 3,781005,557,4,0,0.0,94
+CUST_1287,Karan Bansal,+91 9888319168,karan.bansal501@example.in,Pune,Maharashtra,Tier 1,411057,792,6,1,0.167,99
+CUST_1288,Neha Pillai,+91 9714237322,neha.pillai596@example.in,Jodhpur,Rajasthan,Tier 3,342001,404,9,3,0.333,78
+CUST_1289,Priya Kulkarni,+91 9966207740,priya.kulkarni165@example.in,Chandigarh,Punjab,Tier 2,160036,431,7,1,0.143,89
+CUST_1290,Nikhil Chopra,+91 9173297813,nikhil.chopra903@example.in,Mumbai,Maharashtra,Tier 1,400050,1076,1,0,0.0,99
+CUST_1291,Manish Pillai,+91 9380528349,manish.pillai395@example.in,Indore,Madhya Pradesh,Tier 2,452001,955,3,1,0.333,80
+CUST_1292,Tanvi Malhotra,+91 9996343485,tanvi.malhotra832@example.in,Jodhpur,Rajasthan,Tier 3,342008,1005,1,0,0.0,99
+CUST_1293,Shreya Reddy,+91 9150063879,shreya.reddy240@example.in,Lucknow,Uttar Pradesh,Tier 2,226016,438,3,0,0.0,94
+CUST_1294,Simran Chatterjee,+91 9356815569,simran.chatterjee583@example.in,Ahmedabad,Gujarat,Tier 2,380054,263,8,1,0.125,84
+CUST_1295,Deepak Joshi,+91 9929659692,deepak.joshi307@example.in,Mumbai,Maharashtra,Tier 1,400076,175,13,4,0.308,78
+CUST_1296,Amit Kulkarni,+91 8844419327,amit.kulkarni775@example.in,Patna,Bihar,Tier 3,800001,427,7,1,0.143,90
+CUST_1297,Meera Malhotra,+91 8846456416,meera.malhotra150@example.in,Hyderabad,Telangana,Tier 1,500072,504,7,1,0.143,97
+CUST_1298,Shreya Patel,+91 8881275182,shreya.patel241@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,121,7,3,0.429,59
+CUST_1299,Rohan Bose,+91 9973404979,rohan.bose112@example.in,Meerut,Uttar Pradesh,Tier 3,250001,24,3,1,0.333,63
+CUST_1300,Arjun Bose,+91 8873847325,arjun.bose498@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,602,3,1,0.333,74
+CUST_1301,Manish Gupta,+91 8817940667,manish.gupta939@example.in,Delhi-NCR,Delhi,Tier 1,201301,489,1,0,0.0,86
+CUST_1302,Rahul Rao,+91 9333593960,rahul.rao966@example.in,Mumbai,Maharashtra,Tier 1,400092,1028,9,2,0.222,91
+CUST_1303,Kavya Bansal,+91 9915028625,kavya.bansal19@example.in,Lucknow,Uttar Pradesh,Tier 2,226001,700,29,5,0.172,99
+CUST_1304,Varun Kulkarni,+91 8882920556,varun.kulkarni546@example.in,Patna,Bihar,Tier 3,800001,1046,6,1,0.167,94
+CUST_1305,Sunita Reddy,+91 9725119192,sunita.reddy348@example.in,Pune,Maharashtra,Tier 1,411045,540,3,1,0.333,72
+CUST_1306,Kavya Sharma,+91 8855246430,kavya.sharma819@example.in,Lucknow,Uttar Pradesh,Tier 2,226010,373,5,2,0.4,75
+CUST_1307,Swati Bose,+91 9154013571,swati.bose98@example.in,Kochi,Kerala,Tier 2,682030,209,6,1,0.167,79
+CUST_1308,Kavya Singh,+91 9353433080,kavya.singh968@example.in,Jaipur,Rajasthan,Tier 2,302001,548,14,2,0.143,99
+CUST_1309,Deepak Mehta,+91 9345835371,deepak.mehta986@example.in,Indore,Madhya Pradesh,Tier 2,452010,37,6,0,0.0,82
+CUST_1310,Gaurav Bhat,+91 9941715995,gaurav.bhat73@example.in,Meerut,Uttar Pradesh,Tier 3,250001,967,13,2,0.154,99
+CUST_1311,Rhea Rao,+91 9377447155,rhea.rao955@example.in,Jodhpur,Rajasthan,Tier 3,342008,254,12,4,0.333,80
+CUST_1312,Varun Mishra,+91 9139641883,varun.mishra234@example.in,Chennai,Tamil Nadu,Tier 1,600096,327,14,1,0.071,94
+CUST_1313,Sunita Bansal,+91 9160147077,sunita.bansal435@example.in,Jodhpur,Rajasthan,Tier 3,342008,461,5,0,0.0,97
+CUST_1314,Shreya Pillai,+91 9120988446,shreya.pillai548@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,754,13,3,0.231,99
+CUST_1315,Vikram Saxena,+91 9818289024,vikram.saxena858@example.in,Agra,Uttar Pradesh,Tier 3,282007,428,5,2,0.4,74
+CUST_1316,Neha Rao,+91 9979839059,neha.rao462@example.in,Hyderabad,Telangana,Tier 1,500032,1015,3,0,0.0,99
+CUST_1317,Sneha Chopra,+91 9317467311,sneha.chopra474@example.in,Chennai,Tamil Nadu,Tier 1,600113,864,13,4,0.308,96
+CUST_1318,Sunita Saxena,+91 9885000490,sunita.saxena483@example.in,Meerut,Uttar Pradesh,Tier 3,250002,58,4,1,0.25,65
+CUST_1319,Swati Reddy,+91 9839246218,swati.reddy602@example.in,Delhi-NCR,Delhi,Tier 1,110001,881,13,1,0.077,99
+CUST_1320,Amit Agarwal,+91 9882633735,amit.agarwal71@example.in,Delhi-NCR,Delhi,Tier 1,122001,78,14,1,0.071,84
+CUST_1321,Varun Bose,+91 9728176954,varun.bose794@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,874,14,2,0.143,99
+CUST_1322,Ishita Joshi,+91 9360666702,ishita.joshi394@example.in,Delhi-NCR,Delhi,Tier 1,201301,286,8,1,0.125,87
+CUST_1323,Amit Iyer,+91 9782109613,amit.iyer412@example.in,Varanasi,Uttar Pradesh,Tier 3,221001,470,22,8,0.364,86
+CUST_1324,Aarav Sharma,+91 9972143331,aarav.sharma699@example.in,Agra,Uttar Pradesh,Tier 3,282004,790,15,1,0.067,99
+CUST_1325,Karan Mehta,+91 9356460773,karan.mehta168@example.in,Ahmedabad,Gujarat,Tier 2,380015,245,8,1,0.125,84
+CUST_1326,Rahul Pillai,+91 9392533595,rahul.pillai794@example.in,Bengaluru,Karnataka,Tier 1,560034,436,3,1,0.333,71
+CUST_1327,Vikram Iyer,+91 9114506531,vikram.iyer467@example.in,Guwahati,Assam,Tier 3,781022,113,23,11,0.478,68
+CUST_1328,Shreya Bansal,+91 9863991141,shreya.bansal459@example.in,Jaipur,Rajasthan,Tier 2,302015,129,4,2,0.5,57
+CUST_1329,Aditya Chopra,+91 9941428626,aditya.chopra845@example.in,Ranchi,Jharkhand,Tier 3,834004,670,7,1,0.143,98
+CUST_1330,Shreya Gupta,+91 9798612211,shreya.gupta543@example.in,Jaipur,Rajasthan,Tier 2,302033,629,5,0,0.0,98
+CUST_1331,Meera Patel,+91 9189412216,meera.patel910@example.in,Pune,Maharashtra,Tier 1,411045,1029,1,1,1.0,41
+CUST_1332,Amit Bhat,+91 8861157708,amit.bhat814@example.in,Varanasi,Uttar Pradesh,Tier 3,221005,866,10,5,0.5,81
+CUST_1333,Nikhil Singh,+91 9960527631,nikhil.singh198@example.in,Agra,Uttar Pradesh,Tier 3,282004,507,8,1,0.125,94
+CUST_1334,Karan Gupta,+91 8829374563,karan.gupta835@example.in,Coimbatore,Tamil Nadu,Tier 2,641001,859,8,2,0.25,91
+CUST_1335,Nikhil Malhotra,+91 9127997624,nikhil.malhotra407@example.in,Jaipur,Rajasthan,Tier 2,302020,430,7,2,0.286,81
+CUST_1336,Tanvi Bhat,+91 9870369365,tanvi.bhat877@example.in,Surat,Gujarat,Tier 2,395001,404,9,2,0.222,88
+CUST_1337,Ananya Reddy,+91 9391197624,ananya.reddy627@example.in,Mumbai,Maharashtra,Tier 1,400001,399,4,0,0.0,98
+CUST_1338,Divya Deshmukh,+91 9754689713,divya.deshmukh320@example.in,Bengaluru,Karnataka,Tier 1,560034,403,3,1,0.333,73
+CUST_1339,Pooja Bansal,+91 9342560305,pooja.bansal722@example.in,Guwahati,Assam,Tier 3,781022,432,11,1,0.091,90
+CUST_1340,Swati Mehta,+91 9153166435,swati.mehta804@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,968,8,1,0.125,99
+CUST_1341,Amit Gupta,+91 9958270683,amit.gupta535@example.in,Patna,Bihar,Tier 3,800014,215,1,0,0.0,80
+CUST_1342,Harsh Chatterjee,+91 9759755172,harsh.chatterjee330@example.in,Chandigarh,Punjab,Tier 2,160017,467,11,2,0.182,89
+CUST_1343,Neha Sharma,+91 9984264220,neha.sharma967@example.in,Ranchi,Jharkhand,Tier 3,834004,618,8,3,0.375,90
+CUST_1344,Neha Nair,+91 9940872577,neha.nair398@example.in,Ranchi,Jharkhand,Tier 3,834001,1036,7,2,0.286,89
+CUST_1345,Tanvi Reddy,+91 9396126771,tanvi.reddy767@example.in,Patna,Bihar,Tier 3,800014,358,18,1,0.056,94
+CUST_1346,Amit Rao,+91 9783356206,amit.rao510@example.in,Pune,Maharashtra,Tier 1,411057,134,9,1,0.111,83
+CUST_1347,Rahul Verma,+91 8816511491,rahul.verma792@example.in,Bengaluru,Karnataka,Tier 1,560100,295,2,0,0.0,78
+CUST_1348,Karan Verma,+91 8830270856,karan.verma19@example.in,Kolkata,West Bengal,Tier 1,700107,947,14,4,0.286,91
+CUST_1349,Ishita Patel,+91 9195594482,ishita.patel692@example.in,Guwahati,Assam,Tier 3,781005,1013,5,2,0.4,78
+CUST_1350,Priya Sharma,+91 9184040345,priya.sharma431@example.in,Bengaluru,Karnataka,Tier 1,560001,1098,11,0,0.0,99
+CUST_1351,Meera Malhotra,+91 9912300840,meera.malhotra524@example.in,Jodhpur,Rajasthan,Tier 3,342008,381,13,2,0.154,86
+CUST_1352,Rohan Iyer,+91 9129984682,rohan.iyer256@example.in,Kolkata,West Bengal,Tier 1,700107,1092,7,1,0.143,97
+CUST_1353,Gaurav Mishra,+91 9963270536,gaurav.mishra90@example.in,Surat,Gujarat,Tier 2,395003,954,12,2,0.167,99
+CUST_1354,Shreya Agarwal,+91 9750261914,shreya.agarwal710@example.in,Delhi-NCR,Delhi,Tier 1,110001,205,15,1,0.067,94
+CUST_1355,Swati Joshi,+91 9384182331,swati.joshi497@example.in,Mumbai,Maharashtra,Tier 1,400001,364,1,1,1.0,34
+CUST_1356,Akanksha Bhat,+91 9985947990,akanksha.bhat888@example.in,Hyderabad,Telangana,Tier 1,500072,101,3,0,0.0,85
+CUST_1357,Karan Nair,+91 8886072480,karan.nair496@example.in,Ahmedabad,Gujarat,Tier 2,380001,166,11,3,0.273,77
+CUST_1358,Meera Malhotra,+91 9198329927,meera.malhotra43@example.in,Pune,Maharashtra,Tier 1,411028,46,17,1,0.059,89
+CUST_1359,Divya Saxena,+91 9763458386,divya.saxena961@example.in,Delhi-NCR,Delhi,Tier 1,110092,346,5,2,0.4,68
+CUST_1360,Shreya Saxena,+91 9382553061,shreya.saxena349@example.in,Kochi,Kerala,Tier 2,682030,300,9,1,0.111,94
+CUST_1361,Sneha Chopra,+91 8856420476,sneha.chopra64@example.in,Hyderabad,Telangana,Tier 1,500084,489,9,1,0.111,93
+CUST_1362,Vikram Chatterjee,+91 9192391596,vikram.chatterjee987@example.in,Guwahati,Assam,Tier 3,781005,682,3,0,0.0,99
+CUST_1363,Priya Bhat,+91 9970471823,priya.bhat512@example.in,Jaipur,Rajasthan,Tier 2,302020,782,7,2,0.286,93
+CUST_1364,Akanksha Rao,+91 8888634827,akanksha.rao686@example.in,Kochi,Kerala,Tier 2,682001,618,7,2,0.286,91
+CUST_1365,Shreya Agarwal,+91 9821010955,shreya.agarwal284@example.in,Chennai,Tamil Nadu,Tier 1,600096,329,8,0,0.0,93
+CUST_1366,Deepak Chatterjee,+91 9924301022,deepak.chatterjee103@example.in,Bengaluru,Karnataka,Tier 1,560068,924,4,1,0.25,83
+CUST_1367,Ishita Reddy,+91 9827784789,ishita.reddy99@example.in,Pune,Maharashtra,Tier 1,411045,933,14,2,0.143,99
+CUST_1368,Nikhil Iyer,+91 9822028437,nikhil.iyer372@example.in,Agra,Uttar Pradesh,Tier 3,282001,678,8,1,0.125,92
+CUST_1369,Deepak Sharma,+91 9965540647,deepak.sharma407@example.in,Delhi-NCR,Delhi,Tier 1,201301,511,5,2,0.4,67
+CUST_1370,Arjun Pillai,+91 9332750139,arjun.pillai152@example.in,Ahmedabad,Gujarat,Tier 2,380054,563,6,1,0.167,94
+CUST_1371,Simran Singh,+91 9832442197,simran.singh455@example.in,Ahmedabad,Gujarat,Tier 2,380061,627,6,0,0.0,97
+CUST_1372,Harsh Verma,+91 9943782566,harsh.verma976@example.in,Jaipur,Rajasthan,Tier 2,302033,414,3,0,0.0,88
+CUST_1373,Sunita Iyer,+91 9750890504,sunita.iyer16@example.in,Kochi,Kerala,Tier 2,682016,792,1,0,0.0,90
+CUST_1374,Tanvi Kulkarni,+91 9967796330,tanvi.kulkarni845@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,292,13,1,0.077,94
+CUST_1375,Rhea Chatterjee,+91 9136957830,rhea.chatterjee500@example.in,Indore,Madhya Pradesh,Tier 2,452001,829,19,6,0.316,88
+CUST_1376,Manish Gupta,+91 8894946730,manish.gupta512@example.in,Ranchi,Jharkhand,Tier 3,834001,681,2,1,0.5,70
+CUST_1377,Deepak Reddy,+91 9358991556,deepak.reddy126@example.in,Ranchi,Jharkhand,Tier 3,834001,382,14,9,0.643,67
+CUST_1378,Priya Bansal,+91 9338138531,priya.bansal458@example.in,Lucknow,Uttar Pradesh,Tier 2,226001,851,7,2,0.286,89
+CUST_1379,Simran Singh,+91 8850645509,simran.singh257@example.in,Ahmedabad,Gujarat,Tier 2,380015,880,7,1,0.143,99
+CUST_1380,Deepak Verma,+91 9390253323,deepak.verma500@example.in,Ranchi,Jharkhand,Tier 3,834004,1051,12,1,0.083,99
+CUST_1381,Nikhil Malhotra,+91 9858255231,nikhil.malhotra728@example.in,Agra,Uttar Pradesh,Tier 3,282007,188,4,1,0.25,69
+CUST_1382,Rohan Mehta,+91 8899213703,rohan.mehta373@example.in,Pune,Maharashtra,Tier 1,411057,104,18,4,0.222,82
+CUST_1383,Swati Chatterjee,+91 9324219637,swati.chatterjee20@example.in,Hyderabad,Telangana,Tier 1,500081,468,8,1,0.125,96
+CUST_1384,Karan Kulkarni,+91 9962497139,karan.kulkarni484@example.in,Meerut,Uttar Pradesh,Tier 3,250001,720,7,2,0.286,90
+CUST_1385,Priya Deshmukh,+91 9849652241,priya.deshmukh435@example.in,Delhi-NCR,Delhi,Tier 1,110001,304,9,3,0.333,81
+CUST_1386,Amit Gupta,+91 9971113711,amit.gupta813@example.in,Kolkata,West Bengal,Tier 1,700107,1003,2,0,0.0,95
+CUST_1387,Amit Deshmukh,+91 9868809636,amit.deshmukh749@example.in,Jodhpur,Rajasthan,Tier 3,342008,667,8,1,0.125,97
+CUST_1388,Vikram Gupta,+91 9825446483,vikram.gupta33@example.in,Indore,Madhya Pradesh,Tier 2,452012,237,6,2,0.333,69
+CUST_1389,Arjun Bansal,+91 9779255529,arjun.bansal188@example.in,Agra,Uttar Pradesh,Tier 3,282001,691,9,2,0.222,89
+CUST_1390,Akanksha Kulkarni,+91 9764364546,akanksha.kulkarni654@example.in,Pune,Maharashtra,Tier 1,411014,899,3,0,0.0,94
+CUST_1391,Swati Sharma,+91 8892424037,swati.sharma914@example.in,Kolkata,West Bengal,Tier 1,700091,893,3,0,0.0,99
+CUST_1392,Deepak Sharma,+91 8838829445,deepak.sharma220@example.in,Ahmedabad,Gujarat,Tier 2,380001,222,6,1,0.167,76
+CUST_1393,Kavya Mishra,+91 9936450861,kavya.mishra478@example.in,Hyderabad,Telangana,Tier 1,500081,1016,9,2,0.222,99
+CUST_1394,Manish Choudhury,+91 9392048427,manish.choudhury411@example.in,Ranchi,Jharkhand,Tier 3,834001,726,13,2,0.154,99
+CUST_1395,Amit Kulkarni,+91 9133156250,amit.kulkarni843@example.in,Meerut,Uttar Pradesh,Tier 3,250002,187,2,0,0.0,87
+CUST_1396,Aditya Chatterjee,+91 9842020689,aditya.chatterjee322@example.in,Hyderabad,Telangana,Tier 1,500032,778,23,13,0.565,78
+CUST_1397,Neha Chopra,+91 9366135102,neha.chopra620@example.in,Chennai,Tamil Nadu,Tier 1,600113,799,3,0,0.0,95
+CUST_1398,Akanksha Rao,+91 9395295586,akanksha.rao560@example.in,Jodhpur,Rajasthan,Tier 3,342001,355,9,4,0.444,73
+CUST_1399,Simran Gupta,+91 9735111946,simran.gupta332@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,123,8,1,0.125,93
+CUST_1400,Amit Sharma,+91 9328325379,amit.sharma209@example.in,Kochi,Kerala,Tier 2,682030,1049,3,0,0.0,99
+CUST_1401,Simran Bose,+91 8875998330,simran.bose435@example.in,Jodhpur,Rajasthan,Tier 3,342008,1014,8,1,0.125,94
+CUST_1402,Arjun Verma,+91 9114142053,arjun.verma824@example.in,Jaipur,Rajasthan,Tier 2,302020,80,7,1,0.143,78
+CUST_1403,Meera Mehta,+91 9148744673,meera.mehta182@example.in,Coimbatore,Tamil Nadu,Tier 2,641044,1028,13,1,0.077,98
+CUST_1404,Pooja Saxena,+91 9845955440,pooja.saxena803@example.in,Agra,Uttar Pradesh,Tier 3,282004,99,11,2,0.182,89
+CUST_1405,Suresh Malhotra,+91 9767063296,suresh.malhotra114@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,623,6,3,0.5,75
+CUST_1406,Rahul Kulkarni,+91 9956785209,rahul.kulkarni892@example.in,Delhi-NCR,Delhi,Tier 1,122001,254,11,3,0.273,77
+CUST_1407,Shreya Nair,+91 8888909809,shreya.nair715@example.in,Surat,Gujarat,Tier 2,395007,890,8,3,0.375,87
+CUST_1408,Arjun Choudhury,+91 9737732020,arjun.choudhury843@example.in,Kolkata,West Bengal,Tier 1,700001,732,10,1,0.1,99
+CUST_1409,Meera Choudhury,+91 9132599227,meera.choudhury341@example.in,Jodhpur,Rajasthan,Tier 3,342008,606,14,8,0.571,70
+CUST_1410,Meera Chopra,+91 8822780905,meera.chopra148@example.in,Chandigarh,Punjab,Tier 2,160017,581,4,1,0.25,84
+CUST_1411,Aditya Agarwal,+91 9743511112,aditya.agarwal159@example.in,Jodhpur,Rajasthan,Tier 3,342008,520,5,1,0.2,81
+CUST_1412,Swati Deshmukh,+91 9787500742,swati.deshmukh657@example.in,Ahmedabad,Gujarat,Tier 2,380061,782,13,0,0.0,99
+CUST_1413,Suresh Verma,+91 8822494970,suresh.verma422@example.in,Varanasi,Uttar Pradesh,Tier 3,221010,583,11,6,0.545,73
+CUST_1414,Ishita Kulkarni,+91 9353928023,ishita.kulkarni605@example.in,Bengaluru,Karnataka,Tier 1,560001,952,11,0,0.0,99
+CUST_1415,Amit Verma,+91 9163380520,amit.verma233@example.in,Chandigarh,Punjab,Tier 2,160017,1027,10,2,0.2,97
+CUST_1416,Meera Chatterjee,+91 9955332729,meera.chatterjee570@example.in,Ranchi,Jharkhand,Tier 3,834001,1007,12,2,0.167,99
+CUST_1417,Tanvi Pillai,+91 9816166355,tanvi.pillai111@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,47,4,1,0.25,69
+CUST_1418,Pooja Rao,+91 9371272827,pooja.rao10@example.in,Chandigarh,Punjab,Tier 2,160017,284,17,1,0.059,99
+CUST_1419,Rhea Rao,+91 9922527880,rhea.rao680@example.in,Surat,Gujarat,Tier 2,395003,182,11,2,0.182,85
+CUST_1420,Ishita Pillai,+91 8832216400,ishita.pillai63@example.in,Kochi,Kerala,Tier 2,682030,639,14,7,0.5,82
+CUST_1421,Karan Bose,+91 8822240547,karan.bose730@example.in,Hyderabad,Telangana,Tier 1,500001,451,8,1,0.125,96
+CUST_1422,Harsh Verma,+91 9789682313,harsh.verma241@example.in,Varanasi,Uttar Pradesh,Tier 3,221010,925,7,1,0.143,96
+CUST_1423,Aarav Sharma,+91 8856113741,aarav.sharma846@example.in,Hyderabad,Telangana,Tier 1,500084,284,21,3,0.143,87
+CUST_1424,Harsh Verma,+91 9761414775,harsh.verma101@example.in,Hyderabad,Telangana,Tier 1,500001,655,3,0,0.0,99
+CUST_1425,Ishita Gupta,+91 9761367949,ishita.gupta802@example.in,Chennai,Tamil Nadu,Tier 1,600028,154,18,4,0.222,84
+CUST_1426,Aarav Choudhury,+91 8832027350,aarav.choudhury460@example.in,Surat,Gujarat,Tier 2,395007,450,3,0,0.0,94
+CUST_1427,Neha Bose,+91 9169375757,neha.bose890@example.in,Kolkata,West Bengal,Tier 1,700001,219,5,0,0.0,85
+CUST_1428,Aditya Iyer,+91 9161543890,aditya.iyer369@example.in,Chandigarh,Punjab,Tier 2,160022,300,9,3,0.333,79
+CUST_1429,Shreya Reddy,+91 8821307671,shreya.reddy264@example.in,Agra,Uttar Pradesh,Tier 3,282007,597,13,2,0.154,99
+CUST_1430,Priya Pillai,+91 9937574457,priya.pillai540@example.in,Guwahati,Assam,Tier 3,781022,400,15,3,0.2,91
+CUST_1431,Swati Gupta,+91 8817324144,swati.gupta812@example.in,Jaipur,Rajasthan,Tier 2,302033,804,7,1,0.143,91
+CUST_1432,Pooja Mehta,+91 9395641960,pooja.mehta618@example.in,Delhi-NCR,Delhi,Tier 1,201301,38,2,0,0.0,75
+CUST_1433,Ishita Chatterjee,+91 9761920550,ishita.chatterjee891@example.in,Ranchi,Jharkhand,Tier 3,834004,762,4,0,0.0,98
+CUST_1434,Kavya Deshmukh,+91 9812240013,kavya.deshmukh611@example.in,Delhi-NCR,Delhi,Tier 1,110001,550,13,2,0.154,95
+CUST_1435,Divya Patel,+91 9863415303,divya.patel528@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,881,6,1,0.167,90
+CUST_1436,Swati Verma,+91 8882016510,swati.verma560@example.in,Guwahati,Assam,Tier 3,781001,582,4,2,0.5,60
+CUST_1437,Sneha Gupta,+91 9878626154,sneha.gupta953@example.in,Kolkata,West Bengal,Tier 1,700020,683,20,4,0.2,90
+CUST_1438,Swati Saxena,+91 8897219985,swati.saxena707@example.in,Bhopal,Madhya Pradesh,Tier 3,462001,649,3,1,0.333,77
+CUST_1439,Akanksha Bansal,+91 9717772004,akanksha.bansal260@example.in,Delhi-NCR,Delhi,Tier 1,122001,251,14,5,0.357,84
+CUST_1440,Sunita Choudhury,+91 9117385816,sunita.choudhury326@example.in,Meerut,Uttar Pradesh,Tier 3,250001,258,18,1,0.056,90
+CUST_1441,Aarav Agarwal,+91 9711523452,aarav.agarwal177@example.in,Patna,Bihar,Tier 3,800014,1085,10,2,0.2,96
+CUST_1442,Gaurav Rao,+91 9927036337,gaurav.rao777@example.in,Ahmedabad,Gujarat,Tier 2,380001,74,12,2,0.167,80
+CUST_1443,Tanvi Bose,+91 9980310522,tanvi.bose75@example.in,Ahmedabad,Gujarat,Tier 2,380001,1030,15,5,0.333,87
+CUST_1444,Sunita Chopra,+91 9917440911,sunita.chopra521@example.in,Ranchi,Jharkhand,Tier 3,834001,767,11,2,0.182,99
+CUST_1445,Arjun Reddy,+91 9887029205,arjun.reddy700@example.in,Hyderabad,Telangana,Tier 1,500032,1056,9,0,0.0,99
+CUST_1446,Aarav Patel,+91 9842823140,aarav.patel57@example.in,Patna,Bihar,Tier 3,800014,798,4,1,0.25,93
+CUST_1447,Neha Rao,+91 9884204255,neha.rao832@example.in,Jodhpur,Rajasthan,Tier 3,342008,473,7,2,0.286,88
+CUST_1448,Manish Mehta,+91 9352940967,manish.mehta287@example.in,Delhi-NCR,Delhi,Tier 1,201301,777,5,0,0.0,99
+CUST_1449,Pooja Chopra,+91 8817069536,pooja.chopra193@example.in,Jaipur,Rajasthan,Tier 2,302001,835,1,1,1.0,39
+CUST_1450,Sunita Gupta,+91 9953929586,sunita.gupta98@example.in,Agra,Uttar Pradesh,Tier 3,282004,30,9,1,0.111,81
+CUST_1451,Ishita Nair,+91 9985672859,ishita.nair813@example.in,Lucknow,Uttar Pradesh,Tier 2,226010,964,5,1,0.2,98
+CUST_1452,Ishita Saxena,+91 9336229153,ishita.saxena760@example.in,Agra,Uttar Pradesh,Tier 3,282001,322,5,1,0.2,80
+CUST_1453,Aarav Bose,+91 9841272427,aarav.bose564@example.in,Surat,Gujarat,Tier 2,395007,33,7,1,0.143,79
+CUST_1454,Tanvi Sharma,+91 8860502752,tanvi.sharma879@example.in,Lucknow,Uttar Pradesh,Tier 2,226001,434,3,1,0.333,75
+CUST_1455,Shreya Bose,+91 9318038980,shreya.bose155@example.in,Jodhpur,Rajasthan,Tier 3,342008,204,13,7,0.538,65
+CUST_1456,Rahul Mehta,+91 9165439545,rahul.mehta727@example.in,Surat,Gujarat,Tier 2,395003,187,4,0,0.0,81
+CUST_1457,Rohan Chopra,+91 9795525640,rohan.chopra849@example.in,Kochi,Kerala,Tier 2,682001,141,9,0,0.0,80
+CUST_1458,Akanksha Pillai,+91 9741778964,akanksha.pillai308@example.in,Ahmedabad,Gujarat,Tier 2,380054,818,23,2,0.087,99
+CUST_1459,Manish Chatterjee,+91 9346501299,manish.chatterjee249@example.in,Delhi-NCR,Delhi,Tier 1,110019,292,4,1,0.25,70
+CUST_1460,Rohan Singh,+91 9832062036,rohan.singh470@example.in,Coimbatore,Tamil Nadu,Tier 2,641012,846,5,1,0.2,98
+CUST_1461,Pooja Malhotra,+91 9937868462,pooja.malhotra472@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,556,1,0,0.0,92
+CUST_1462,Sneha Rao,+91 8850831043,sneha.rao856@example.in,Jodhpur,Rajasthan,Tier 3,342001,454,12,3,0.25,91
+CUST_1463,Manish Singh,+91 9843315361,manish.singh374@example.in,Kochi,Kerala,Tier 2,682030,114,2,0,0.0,81
+CUST_1464,Rhea Reddy,+91 9714171767,rhea.reddy984@example.in,Kochi,Kerala,Tier 2,682016,525,3,0,0.0,91
+CUST_1465,Rohan Kulkarni,+91 9828762704,rohan.kulkarni134@example.in,Bengaluru,Karnataka,Tier 1,560001,469,8,1,0.125,88
+CUST_1466,Aditya Nair,+91 9359961172,aditya.nair712@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,186,7,2,0.286,73
+CUST_1467,Gaurav Verma,+91 9818653290,gaurav.verma212@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,277,11,1,0.091,90
+CUST_1468,Sneha Chatterjee,+91 9815730602,sneha.chatterjee974@example.in,Coimbatore,Tamil Nadu,Tier 2,641001,358,1,0,0.0,83
+CUST_1469,Akanksha Bansal,+91 9376588957,akanksha.bansal40@example.in,Kochi,Kerala,Tier 2,682030,887,2,1,0.5,63
+CUST_1470,Kavya Mishra,+91 9735118997,kavya.mishra291@example.in,Ahmedabad,Gujarat,Tier 2,380061,318,6,1,0.167,78
+CUST_1471,Rahul Choudhury,+91 9192809273,rahul.choudhury261@example.in,Bhopal,Madhya Pradesh,Tier 3,462011,1035,6,1,0.167,90
+CUST_1472,Nikhil Malhotra,+91 9318184472,nikhil.malhotra99@example.in,Ahmedabad,Gujarat,Tier 2,380061,295,7,1,0.143,76
+CUST_1473,Nikhil Nair,+91 8880573568,nikhil.nair265@example.in,Bhopal,Madhya Pradesh,Tier 3,462023,53,15,3,0.2,79
+CUST_1474,Deepak Agarwal,+91 9974382155,deepak.agarwal567@example.in,Patna,Bihar,Tier 3,800014,1042,4,1,0.25,85
+CUST_1475,Manish Joshi,+91 9934134478,manish.joshi36@example.in,Indore,Madhya Pradesh,Tier 2,452012,462,6,1,0.167,81
+CUST_1476,Priya Reddy,+91 9873308406,priya.reddy552@example.in,Surat,Gujarat,Tier 2,395007,490,9,2,0.222,95
+CUST_1477,Arjun Iyer,+91 9798162850,arjun.iyer256@example.in,Ahmedabad,Gujarat,Tier 2,380001,463,17,2,0.118,99
+CUST_1478,Deepak Mishra,+91 9733635791,deepak.mishra252@example.in,Ranchi,Jharkhand,Tier 3,834004,748,11,2,0.182,99
+CUST_1479,Priya Agarwal,+91 8857201978,priya.agarwal980@example.in,Ranchi,Jharkhand,Tier 3,834001,399,6,1,0.167,78
+CUST_1480,Simran Malhotra,+91 9933562830,simran.malhotra512@example.in,Mumbai,Maharashtra,Tier 1,400001,129,12,5,0.417,75
+CUST_1481,Karan Choudhury,+91 9712674689,karan.choudhury549@example.in,Patna,Bihar,Tier 3,800001,693,5,2,0.4,74
+CUST_1482,Siddharth Singh,+91 9933818260,siddharth.singh950@example.in,Indore,Madhya Pradesh,Tier 2,452001,58,11,0,0.0,97
+CUST_1483,Neha Saxena,+91 8829012298,neha.saxena802@example.in,Hyderabad,Telangana,Tier 1,500072,761,5,1,0.2,95
+CUST_1484,Vikram Mishra,+91 8898870866,vikram.mishra415@example.in,Ranchi,Jharkhand,Tier 3,834001,703,19,5,0.263,92
+CUST_1485,Rhea Chatterjee,+91 9731139813,rhea.chatterjee759@example.in,Chandigarh,Punjab,Tier 2,160036,1011,7,0,0.0,99
+CUST_1486,Manish Rao,+91 8885427317,manish.rao720@example.in,Guwahati,Assam,Tier 3,781005,471,7,2,0.286,78
+CUST_1487,Kavya Joshi,+91 9949529438,kavya.joshi140@example.in,Pune,Maharashtra,Tier 1,411001,815,13,6,0.462,86
+CUST_1488,Rahul Rao,+91 9152710350,rahul.rao953@example.in,Guwahati,Assam,Tier 3,781001,227,10,4,0.4,66
+CUST_1489,Simran Singh,+91 9920443030,simran.singh253@example.in,Surat,Gujarat,Tier 2,395003,357,5,1,0.2,81
+CUST_1490,Sneha Agarwal,+91 8895778910,sneha.agarwal756@example.in,Indore,Madhya Pradesh,Tier 2,452010,37,11,4,0.364,65
+CUST_1491,Gaurav Nair,+91 9719099261,gaurav.nair368@example.in,Ahmedabad,Gujarat,Tier 2,380001,16,6,2,0.333,68
+CUST_1492,Ananya Joshi,+91 9366324902,ananya.joshi180@example.in,Chandigarh,Punjab,Tier 2,160022,789,10,2,0.2,93
+CUST_1493,Amit Malhotra,+91 9323613510,amit.malhotra858@example.in,Patna,Bihar,Tier 3,800020,475,13,6,0.462,76
+CUST_1494,Arjun Kulkarni,+91 9814484588,arjun.kulkarni311@example.in,Bengaluru,Karnataka,Tier 1,560068,548,17,0,0.0,99
+CUST_1495,Rohan Verma,+91 9932831133,rohan.verma919@example.in,Kochi,Kerala,Tier 2,682001,167,6,3,0.5,53
+CUST_1496,Sneha Chatterjee,+91 9192362000,sneha.chatterjee924@example.in,Patna,Bihar,Tier 3,800020,77,15,3,0.2,83
+CUST_1497,Akanksha Bhat,+91 9791512791,akanksha.bhat921@example.in,Chandigarh,Punjab,Tier 2,160017,123,4,0,0.0,86
+CUST_1498,Rohan Chatterjee,+91 9735499255,rohan.chatterjee429@example.in,Jodhpur,Rajasthan,Tier 3,342008,590,13,9,0.692,75
+CUST_1499,Rhea Mehta,+91 9816661956,rhea.mehta412@example.in,Ranchi,Jharkhand,Tier 3,834004,328,4,1,0.25,79
+CUST_1500,Ananya Mishra,+91 9867392300,ananya.mishra99@example.in,Lucknow,Uttar Pradesh,Tier 2,226024,422,14,3,0.214,81
