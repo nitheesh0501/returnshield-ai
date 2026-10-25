@@ -245,6 +245,9 @@ st.markdown("""
 # Exasol In-Memory Connector with Seamless CSV Fallback
 # ---------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(BASE_DIR)
+DATABASE_DIR = os.path.join(REPO_ROOT, "database")
+BACKEND_DIR = os.path.join(REPO_ROOT, "backend")
 
 @st.cache_resource(show_spinner=False)
 def probe_exasol_connection():
@@ -313,26 +316,35 @@ def fetch_orders_data():
             pass
 
     csv_paths = [
-        os.path.join(BASE_DIR, "data", "orders.csv"),
+        os.path.join(DATABASE_DIR, "orders.csv"),
+        os.path.join(REPO_ROOT, "orders.csv"),
         os.path.join(BASE_DIR, "orders.csv")
     ]
     for p in csv_paths:
         if os.path.exists(p):
             df = pd.read_csv(p)
-            return df, status, "SELECT * FROM orders.csv (Vectorized Memory Engine)"
+            return df, status, "SELECT * FROM database/orders.csv (Vectorized Memory Engine)"
 
     # Generate if not exists
+    import sys
+    if BACKEND_DIR not in sys.path:
+        sys.path.insert(0, BACKEND_DIR)
     import init_exasol
     init_exasol.main()
-    df = pd.read_csv(csv_paths[0])
-    return df, status, "SELECT * FROM orders.csv (Auto-initialized Engine)"
+    df = pd.read_csv(os.path.join(DATABASE_DIR, "orders.csv"))
+    return df, status, "SELECT * FROM database/orders.csv (Auto-initialized Engine)"
 
 
 @st.cache_resource(show_spinner=False)
 def fetch_ml_model():
-    model_path = os.path.join(BASE_DIR, "return_risk_model.joblib")
-    if os.path.exists(model_path):
-        return joblib.load(model_path)
+    model_paths = [
+        os.path.join(BACKEND_DIR, "return_risk_model.joblib"),
+        os.path.join(REPO_ROOT, "return_risk_model.joblib"),
+        os.path.join(BASE_DIR, "return_risk_model.joblib")
+    ]
+    for mp in model_paths:
+        if os.path.exists(mp):
+            return joblib.load(mp)
     return None
 
 

@@ -40,8 +40,9 @@ random.seed(42)
 
 # Directory Setup
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
-os.makedirs(DATA_DIR, exist_ok=True)
+REPO_ROOT = os.path.dirname(BASE_DIR)
+DATABASE_DIR = os.path.join(REPO_ROOT, "database")
+os.makedirs(DATABASE_DIR, exist_ok=True)
 
 # ---------------------------------------------------------
 # 1. Indian Retail Geography & Reference Dictionaries
@@ -595,27 +596,21 @@ def main():
 
     # 1. Generate Customers
     customers_df = generate_customers(n=500)
-    customers_csv_data = os.path.join(DATA_DIR, "customers.csv")
-    customers_csv_root = os.path.join(BASE_DIR, "customers.csv")
-    customers_df.to_csv(customers_csv_data, index=False)
-    customers_df.to_csv(customers_csv_root, index=False)
-    logger.info(f"Saved customers.csv: {len(customers_df)} records.")
+    customers_csv_path = os.path.join(DATABASE_DIR, "customers.csv")
+    customers_df.to_csv(customers_csv_path, index=False)
+    logger.info(f"Saved customers.csv: {len(customers_df)} records to {customers_csv_path}.")
 
     # 2. Generate Products
     products_df = generate_products(n=100)
-    products_csv_data = os.path.join(DATA_DIR, "products.csv")
-    products_csv_root = os.path.join(BASE_DIR, "products.csv")
-    products_df.to_csv(products_csv_data, index=False)
-    products_df.to_csv(products_csv_root, index=False)
-    logger.info(f"Saved products.csv: {len(products_df)} records.")
+    products_csv_path = os.path.join(DATABASE_DIR, "products.csv")
+    products_df.to_csv(products_csv_path, index=False)
+    logger.info(f"Saved products.csv: {len(products_df)} records to {products_csv_path}.")
 
     # 3. Generate Orders
     orders_df = generate_orders(customers_df, products_df, n=5000)
-    orders_csv_data = os.path.join(DATA_DIR, "orders.csv")
-    orders_csv_root = os.path.join(BASE_DIR, "orders.csv")
-    orders_df.to_csv(orders_csv_data, index=False)
-    orders_df.to_csv(orders_csv_root, index=False)
-    logger.info(f"Saved orders.csv: {len(orders_df)} records.")
+    orders_csv_path = os.path.join(DATABASE_DIR, "orders.csv")
+    orders_df.to_csv(orders_csv_path, index=False)
+    logger.info(f"Saved orders.csv: {len(orders_df)} records to {orders_csv_path}.")
 
     # 4. Train Risk Model for Fast Interactive Simulator
     train_and_export_ml_model(orders_df)

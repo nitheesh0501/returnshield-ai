@@ -52,17 +52,24 @@ In the Indian e-commerce and quick-commerce ecosystem, **Cash on Delivery (COD)*
 ```text
 returnshield-ai/
 │
-├── data/
-│   ├── customers.csv           # 500 synthetic Indian retail customer profiles
-│   ├── products.csv            # 100 catalog items with sizing & fragility tags
-│   └── orders.csv              # 5,000 enriched orders with Indian payment splits
+├── frontend/
+│   ├── .streamlit/
+│   │   └── config.toml             # Streamlit server and dark-theme configurations
+│   └── app.py                      # Dark-mode FinTech Streamlit dashboard & live simulator
 │
-├── app.py                      # Dark-mode Streamlit dashboard with interactive simulator
-├── init_exasol.py              # Data generator & Exasol DB schema/table ingestion engine
-├── return_risk_model.joblib    # Trained Random Forest risk scoring model
-├── requirements.txt            # Locked project dependencies
-├── LICENSE                     # MIT License
-└── README.md                   # Comprehensive project documentation
+├── backend/
+│   ├── init_exasol.py              # Data generator & Exasol DB schema/table ingestion engine
+│   └── return_risk_model.joblib    # Trained Random Forest risk scoring model
+│
+├── database/
+│   ├── customers.csv               # 500 synthetic Indian retail customer profiles
+│   ├── products.csv                # 100 catalog items with sizing & fragility tags
+│   └── orders.csv                  # 5,000 enriched orders with Indian payment splits
+│
+├── .gitignore                      # Git ignore file for bytecode and temporary caches
+├── requirements.txt                # Locked project dependencies
+├── LICENSE                         # MIT License
+└── README.md                       # Comprehensive project documentation
 ```
 
 ---
@@ -75,7 +82,7 @@ returnshield-ai/
 
 ### Step 1: Clone or Navigate to the Project Directory
 ```bash
-cd C:\Users\nithe\.gemini\antigravity\scratch\returnshield-ai
+cd returnshield-ai
 ```
 
 ### Step 2: Install Dependencies
@@ -91,46 +98,17 @@ docker run -d --name exasol_personal \
   --privileged \
   exasol/docker-db:latest
 ```
-*(If Docker is not running, the platform's automatic graceful fallback will run seamlessly on local CSV datasets!)*
+*(If Docker is not running, the platform's automatic graceful fallback will run seamlessly on local CSV datasets in `database/`!)*
 
 ### Step 4: Run Data Generation & Ingestion Engine
 Execute the initialization script to generate the synthetic datasets and compile the ML risk model:
 ```bash
-python init_exasol.py
-```
-
-**Expected Initialization Output:**
-```text
-===========================================================================
-  ReturnShield AI - Dataset Generator & Exasol Ingestion Engine  
-  ExaThon India 2026 | Track 02 | Team POWERHOUSE                
-===========================================================================
-[INFO] Generating 500 customer records...
-[INFO] Saved customers.csv: 500 records.
-[INFO] Generating 100 product records...
-[INFO] Saved products.csv: 100 records.
-[INFO] Generating 5000 realistic orders with Indian retail payment & channel distributions...
-[INFO] Saved orders.csv: 5000 records.
-[INFO] Training ReturnShield Machine Learning risk model on generated orders...
-[INFO] ML risk scoring model trained and saved to return_risk_model.joblib
-[INFO] Probing Exasol Personal at localhost:8563...
-[INFO] [GRACEFUL FALLBACK ACTIVATED] Exasol Personal container is offline.
-[INFO] Local High-Performance CSV files are prepared and indexed.
-[INFO] Streamlit dashboard will seamlessly run on the Local Analytics Engine.
-===========================================================================
-  INITIALIZATION SUMMARY  
-===========================================================================
-  • customers.csv        : 500 rows generated
-  • products.csv         : 100 rows generated
-  • orders.csv           : 5000 rows generated
-  • Risk Model           : return_risk_model.joblib compiled
-  • Exasol DB Status     : OFFLINE (Graceful Fallback Active, Local CSV Engine Ready)
-===========================================================================
+python backend/init_exasol.py
 ```
 
 ### Step 5: Launch the ReturnShield AI Dashboard
 ```bash
-streamlit run app.py
+streamlit run frontend/app.py
 ```
 Open your browser at **`http://localhost:8501`**.
 
